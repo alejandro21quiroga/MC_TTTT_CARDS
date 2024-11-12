@@ -1,7 +1,7 @@
 ! 1) Settings used in the main program
 
 Main:numberOfEvents = 50000         ! number of events to generate
-Main:timesAllowErrors = 10 0       ! how many aborts before run stops
+Main:timesAllowErrors = 100       ! how many aborts before run stops
 
 ! 2) Settings related to output in init(), next() and stat().
 
@@ -45,4 +45,4 @@ UncertaintyBands:FSRpTmin2Fac = 20
 UncertaintyBands:ISRpTmin2Fac = 20
 
 Beams:frameType = 4
-Beams:LHEF =XXX/YYY
+Beams:LHEF =YYY
