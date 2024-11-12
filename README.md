@@ -26,12 +26,12 @@ There are two categories of samples: Signal and Background. For signal samples, 
 
 **Background samples description** 
 
-* `ttw_minus` :  An exclusive sample where the $W^{⁻}$ boson is forced to decay to leptons, while the $W^{⁺}$ boson is allowed to decay into all possible particles.
+* `ttw_minus` :  An exclusive sample where the $W^{-}$ boson is forced to decay to leptons, while the $W^{+}$ boson is allowed to decay into all possible particles.
 
 * `ttw_plus` :  An exclusive sample where the $W^{+}$ boson is forced to decay to leptons, while the $W^{-}$ boson is allowed to decay into all possible particles.
 
 * `ttH_to_ZZ` :  An inclusive sample where the $W^{±}$ bosons are allowed to decay into all possible particles, the Higgs boson ($H$) decays exclusively to $ZZ$, and each $Z$ boson can decay into all possible particles.
 
-* `ttH_to_WW_minus` :  An exclusive sample where the $W^{-}$ boson is requierd to decay leptons, while the $W^{⁺}$ boson is allowed to decay into all possible particles. The Higgs boson ($H$) decays exclusively to $W^{+}W^{-}$.
+* `ttH_to_WW_minus` :  An exclusive sample where the $W^{-}$ boson is requierd to decay leptons, while the $W^{+}$ boson is allowed to decay into all possible particles. The Higgs boson ($H$) decays exclusively to $W^{+}W^{-}$.
 
  * `ttH_to_WW_plus` :  An exclusive sample where the $W^{+}$ boson is requierd to decay leptons, while the $W^{-}$ boson is allowed to decay into all possible particles. The Higgs boson ($H$) decays exclusively to $W^{+}W^{-}$.
