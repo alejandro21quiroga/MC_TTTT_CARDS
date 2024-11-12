@@ -20,7 +20,7 @@ There are two categories of samples: Signal and Background. For signal samples, 
 
 **Signal samples description** 
 
-* `tttt_w_minus` : An exclusive sample where the $W^{⁻}$ boson from the top decay is forced to decay to leptons, while the $W^{⁺}$ boson is allowed to decay into all possible particles.
+* `tttt_w_minus` : An exclusive sample where the $W^{-}$ boson from the top decay is forced to decay to leptons, while the $W^{+}$ boson is allowed to decay into all possible particles.
 
 * `tttt_w_plus` : An exclusive sample where the $W^{+}$ boson from the top decay is forced to decay to leptons, while the $W^{-}$ boson is allowed to decay into all possible particles.
 
