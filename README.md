@@ -2,7 +2,7 @@
 
 This repository contains the data cards used for Monte Carlo (MC) production with MadGraph 3.5 and Pythia8, along with detector simulation handled by Delphes. The project focuses on the four-top-quark differential cross-section with SMEFT (Standard Model Effective Field Theory) contributions.
 
-There are two categories of samples: Signal and Background. For signal samples, six data cards are required for the full simulation: run_card.dat, param_card.dat, madspin_card.dat, reweight_card.dat, configLHE_template.cmnd and delphes_card.tcl. For background samples, five data cards are needed: run_card.dat, param_card.dat, madspin_card.dat, configLHE_template.cmnd and delphes_card.tcl.
+There are two categories of samples: Signal and Background. For signal samples, six data cards are required for the full simulation: **run_card.dat**, **param_card.dat**, **madspin_card.dat**, **reweight_card.dat**, **configLHE_template.cmnd** and **delphes_card.tcl**. For background samples, five data cards are needed: **run_card.dat**, **param_card.dat**, **madspin_card.dat**, **configLHE_template.cmnd** and **delphes_card.tcl**.
 
 **Data cards description**
 
