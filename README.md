@@ -36,7 +36,7 @@ There are two categories of samples: Signal and Background. For signal samples, 
 
  * `ttH_to_WW_plus` :  An exclusive sample where the $W^{+}$ boson is requierd to decay leptons, while the $W^{-}$ boson is allowed to decay into all possible particles. The Higgs boson ($H$) decays exclusively to $W^{+}W^{-}$.
 
- * `tt_W_minus` :  A NLO exclusive sample where the $W^{-}$ boson is requierd to decay leptons, while the $W^{+}$ boson is allowed to decay into all possible particles. This ensures that there is at least one charged lepton in the final state. These samples include three top mass hypotheses: $m_{t}=171.5$GeV $m_{t}=172.5$GeV and $m_{t}=173.5$GeV.
+ * `tt_W_minus` :  A NLO exclusive sample where the $W^{-}$ boson is requierd to decay leptons, while the $W^{+}$ boson is allowed to decay into all possible particles. This ensures that there is at least one charged lepton in the final state. These samples include three top mass hypotheses: $ m_{t}=171.5$ GeV $m_{t}=172.5$ GeV and $m_{t}=173.5$ GeV.
 
- * `tt_W_plus` :  A NLO exclusive sample where the $W^{+}$ boson is requierd to decay leptons, while the $W^{-}$ boson is allowed to decay into all possible particles. This ensures that there is at least one charged lepton in the final state. These samples include three top mass hypotheses: $m_{t}=171.5$GeV $m_{t}=172.5$GeV and $m_{t}=173.5$GeV.
+ * `tt_W_plus` :  A NLO exclusive sample where the $W^{+}$ boson is requierd to decay leptons, while the $W^{-}$ boson is allowed to decay into all possible particles. This ensures that there is at least one charged lepton in the final state. These samples include three top mass hypotheses: $m_{t}=171.5$ GeV $m_{t}=172.5$ GeV and $m_{t}=173.5$ GeV.
 
