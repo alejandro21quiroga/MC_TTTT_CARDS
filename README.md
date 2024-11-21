@@ -2,7 +2,7 @@
 
 This repository contains the data cards used for Monte Carlo (MC) production with MadGraph 3.5 and Pythia8, along with detector simulation handled by Delphes. The project focuses on the four-top-quark differential cross-section with SMEFT (Standard Model Effective Field Theory) contributions.
 
-There are two categories of samples: Signal and Background. For signal samples, six data cards are required for the full simulation: **run_card.dat**, **param_card.dat**, **madspin_card.dat**, **reweight_card.dat**, **configLHE_template.cmnd** and **delphes_card.tcl**. For background samples, five data cards are needed: **run_card.dat**, **param_card.dat**, **madspin_card.dat**, **configLHE_template.cmnd** and **delphes_card.tcl**.
+There are three categories of samples: Signal, Background and Validation. For signal samples, six data cards are required for the full simulation: **run_card.dat**, **param_card.dat**, **madspin_card.dat**, **reweight_card.dat**, **configLHE_template.cmnd** and **delphes_card.tcl**. For background and validation samples, five data cards are needed: **run_card.dat**, **param_card.dat**, **madspin_card.dat**, **configLHE_template.cmnd** and **delphes_card.tcl**.
 
 **Data cards description**
 
@@ -35,6 +35,8 @@ There are two categories of samples: Signal and Background. For signal samples, 
 * `ttH_to_WW_minus` :  An exclusive sample where the $W^{-}$ boson is requierd to decay leptons, while the $W^{+}$ boson is allowed to decay into all possible particles. The Higgs boson ($H$) decays exclusively to $W^{+}W^{-}$.
 
  * `ttH_to_WW_plus` :  An exclusive sample where the $W^{+}$ boson is requierd to decay leptons, while the $W^{-}$ boson is allowed to decay into all possible particles. The Higgs boson ($H$) decays exclusively to $W^{+}W^{-}$.
+
+**Validation samples description**
 
  * `tt_W_minus` :  A NLO exclusive sample where the $W^{-}$ boson is requierd to decay leptons, while the $W^{+}$ boson is allowed to decay into all possible particles. This ensures that there is at least one charged lepton in the final state. These samples include three top mass hypotheses: $m_{t}=171.5$ GeV, $m_{t}=172.5$ GeV and $m_{t}=173.5$ GeV.
 
