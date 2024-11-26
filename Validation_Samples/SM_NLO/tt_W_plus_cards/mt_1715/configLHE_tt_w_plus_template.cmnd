@@ -1,0 +1,66 @@
+! 1) Settings used in the main program
+
+Main:numberOfEvents = 10000         ! number of events to generate
+Main:timesAllowErrors = 100        ! how many aborts before run stops
+
+! 2) Settings related to output in init(), next() and stat().
+
+Init:showChangedSettings = on      ! list changed settings
+Init:showChangedParticleData = off ! list changed particle data
+Next:numberCount = 100            ! print message every n events
+Next:numberShowInfo = 100            ! print event information n times
+Next:numberShowProcess = 100         ! print process record n times
+Next:numberShowEvent = 0           ! print event record n times
+
+! 3) Set the input LHE file
+
+Tune:pp 14
+Tune:ee 7
+MultipartonInteractions:ecmPow=0.03344
+MultipartonInteractions:bProfile=2
+MultipartonInteractions:pT0Ref=1.41
+MultipartonInteractions:coreRadius=0.7634
+MultipartonInteractions:coreFraction=0.63
+ColourReconnection:range=5.176
+SigmaTotal:zeroAXB=off
+SpaceShower:alphaSorder=2
+SpaceShower:alphaSvalue=0.118
+SigmaProcess:alphaSvalue=0.118
+SigmaProcess:alphaSorder=2
+MultipartonInteractions:alphaSvalue=0.118
+MultipartonInteractions:alphaSorder=2
+TimeShower:alphaSorder=2
+TimeShower:alphaSvalue=0.118
+SigmaTotal:mode = 0
+SigmaTotal:sigmaEl = 21.89
+SigmaTotal:sigmaTot = 100.309
+
+# aMC@NLO Matching PS
+
+SpaceShower:pTmaxMatch = 1
+SpaceShower:pTmaxFudge = 1
+SpaceShower:MEcorrections = off
+TimeShower:pTmaxMatch = 1
+TimeShower:pTmaxFudge = 1
+TimeShower:MEcorrections = off
+TimeShower:globalRecoil = on
+TimeShower:limitPTmaxGlobal = on
+TimeShower:nMaxGlobalRecoil = 1
+TimeShower:globalRecoilMode = 2
+TimeShower:nMaxGlobalBranch = 1
+TimeShower:weightGluonToQuark = 1
+
+# Top mass
+6:m0 = 171.5
+
+UncertaintyBands:doVariations = on
+UncertaintyBands:List = {isrDefHi isr:muRfac=0.5,fsrDefHi fsr:muRfac=0.5,isrDefLo isr:muRfac=2.0,fsrDefLo fsr:muRfac=2.0}
+
+UncertaintyBands:MPIshowers = on
+UncertaintyBands:overSampleFSR = 10.0
+UncertaintyBands:overSampleISR = 10.0
+UncertaintyBands:FSRpTmin2Fac = 20
+UncertaintyBands:ISRpTmin2Fac = 20
+
+Beams:frameType = 4
+Beams:LHEF =YYY
