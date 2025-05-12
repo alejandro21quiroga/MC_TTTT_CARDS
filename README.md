@@ -20,24 +20,25 @@ There are three categories of samples: Signal, Background and Validation. For si
 
 **Signal samples description** 
 
-* `tttt_w_minus` : An exclusive sample where the $W^{-}$ boson from the top decay is forced to decay to leptons, while the $W^{+}$ boson is allowed to decay into all possible particles.
+* `tttt_w_minus` : An exclusive sample where the $W^{-}$ boson from the top decay is forced to decay to leptons, while the $W^{+}$ boson is allowed to decay into all particles.
 
-* `tttt_w_plus` : An exclusive sample where the $W^{+}$ boson from the top decay is forced to decay to leptons, while the $W^{-}$ boson is allowed to decay into all possible particles.
+* `tttt_w_plus` : An exclusive sample where the $W^{+}$ boson from the top decay is forced to decay to leptons, while the $W^{-}$ boson is allowed to decay into all particles.
 
 **Background samples description** 
 
-* `ttw_minus` :  An exclusive sample where the $W^{-}$ boson is forced to decay to leptons, while the $W^{+}$ boson is allowed to decay into all possible particles.
+* `ttw_minus` :  An exclusive sample where the $W^{-}$ boson is forced to decay to leptons, while the $W^{+}$ boson is allowed to decay into all particles.
 
-* `ttw_plus` :  An exclusive sample where the $W^{+}$ boson is forced to decay to leptons, while the $W^{-}$ boson is allowed to decay into all possible particles.
+* `ttw_plus` :  An exclusive sample where the $W^{+}$ boson is forced to decay to leptons, while the $W^{-}$ boson is allowed to decay into all particles.
 
 * `ttH_to_ZZ` :  An inclusive sample where the $W^{±}$ bosons are allowed to decay into all possible particles, the Higgs boson ($H$) decays exclusively to $ZZ$, and each $Z$ boson can decay into all possible particles.
 
-* `ttH_to_WW_minus` :  An exclusive sample where the $W^{-}$ boson is requierd to decay leptons, while the $W^{+}$ boson is allowed to decay into all possible particles. The Higgs boson ($H$) decays exclusively to $W^{+}W^{-}$.
+* `ttH_to_WW_minus` :  An exclusive sample where the $W^{-}$ boson is requierd to decay to leptons, while the $W^{+}$ boson is allowed to decay into all particles. The Higgs boson ($H$) decays exclusively to $W^{+}W^{-}$.
 
-* `ttH_to_WW_plus` :  An exclusive sample where the $W^{+}$ boson is requierd to decay leptons, while the $W^{-}$ boson is allowed to decay into all possible particles. The Higgs boson ($H$) decays exclusively to $W^{+}W^{-}$.
+* `ttH_to_WW_plus` :  An exclusive sample where the $W^{+}$ boson is requierd to decay to leptons, while the $W^{-}$ boson is allowed to decay into all possible particles. The Higgs boson ($H$) decays exclusively to $W^{+}W^{-}$.
  
-* `ttz_to_minus` : 
+* `ttz_to_minus` : An exclusive samples where $W^{-}$ boson is requierd to decay to leptons, while the $W^{+}$ boson is allowed to decay into all particles. The Z boson decay to leptons, this is a main background for $t\bar{t}t \bar{t}$.
 
+* `ttz_to_plus` : An exclusive samples where $W^{+}$ boson is requierd to decay to leptons, while the $W^{-}$ boson is allowed to decay into all particles. The Z boson decay to leptons, this is a main background for $t\bar{t}t \bar{t}$.
 
 **Validation samples description**
 
