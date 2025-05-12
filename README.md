@@ -36,9 +36,9 @@ There are three categories of samples: Signal, Background and Validation. For si
 
 * `ttH_to_WW_plus` :  An exclusive sample where the $W^{+}$ boson is requierd to decay to leptons, while the $W^{-}$ boson is allowed to decay into all possible particles. The Higgs boson ($H$) decays exclusively to $W^{+}W^{-}$.
  
-* `ttz_to_minus` : An exclusive samples where $W^{-}$ boson is requierd to decay to leptons, while the $W^{+}$ boson is allowed to decay into all particles. The Z boson decay to leptons, this is a main background for $t\bar{t}t \bar{t} in the 3l and 4l channels$.
+* `ttz_to_minus` : An exclusive samples where $W^{-}$ boson is requierd to decay to leptons, while the $W^{+}$ boson is allowed to decay into all particles. The Z boson decay to leptons, this is a main background for $t\bar{t}t \bar{t}$ in the $3l$ and $4l$ channels.
 
-* `ttz_to_plus` : An exclusive samples where $W^{+}$ boson is requierd to decay to leptons, while the $W^{-}$ boson is allowed to decay into all particles. The Z boson decay to leptons, this is a main background for $t\bar{t}t \bar{t}$ in the 3l and 4l channels.
+* `ttz_to_plus` : An exclusive samples where $W^{+}$ boson is requierd to decay to leptons, while the $W^{-}$ boson is allowed to decay into all particles. The Z boson decay to leptons, this is a main background for $t\bar{t}t \bar{t}$ in the $3l$ and $4l$ channels.
 
 **Validation samples description**
 
