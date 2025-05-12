@@ -34,7 +34,10 @@ There are three categories of samples: Signal, Background and Validation. For si
 
 * `ttH_to_WW_minus` :  An exclusive sample where the $W^{-}$ boson is requierd to decay leptons, while the $W^{+}$ boson is allowed to decay into all possible particles. The Higgs boson ($H$) decays exclusively to $W^{+}W^{-}$.
 
- * `ttH_to_WW_plus` :  An exclusive sample where the $W^{+}$ boson is requierd to decay leptons, while the $W^{-}$ boson is allowed to decay into all possible particles. The Higgs boson ($H$) decays exclusively to $W^{+}W^{-}$.
+* `ttH_to_WW_plus` :  An exclusive sample where the $W^{+}$ boson is requierd to decay leptons, while the $W^{-}$ boson is allowed to decay into all possible particles. The Higgs boson ($H$) decays exclusively to $W^{+}W^{-}$.
+ 
+* `ttz_to_minus` : 
+
 
 **Validation samples description**
 
